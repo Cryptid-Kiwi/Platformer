@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rd2d;
     public float speed;
     public Text score;
+    public Text win;
     private int scoreValue = 0;
     
     // Start is called before the first frame update
@@ -46,4 +47,5 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+ 
 }
